@@ -9,7 +9,7 @@ exit# Калькулятор 4-х операций
 ## Установка
 
 ```bash
-$ composer require koptev19/first-package
+$ composer require andrey-koptev/first-package
 ```
 
 ## Использование

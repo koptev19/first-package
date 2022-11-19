@@ -1,5 +1,5 @@
 {
-    "name": "koptev19/first-package",
+    "name": "andrey-koptev/first-package",
     "type": "library",
     "autoload": {
         "psr-4": {
