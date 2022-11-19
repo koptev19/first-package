@@ -9,7 +9,7 @@
 ## Установка
 
 ```bash
-$ composer require akoptev/first-package
+$ composer require koptev19/first-package
 ```
 
 ## Использование
