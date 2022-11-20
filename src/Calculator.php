@@ -16,7 +16,7 @@ class Calculator
      * @return float
      * @throws WrongArgumentsException
      */
-    public function add(mixed $num1, mixed $num2): float
+    public function add($num1, $num2): float
     {
         $this->checkNumbers($num1, $num2);
 
@@ -31,7 +31,7 @@ class Calculator
      * @return float
      * @throws WrongArgumentsException
      */
-    public function sub(mixed $num1, mixed $num2): float
+    public function sub($num1, $num2): float
     {
         $this->checkNumbers($num1, $num2);
 
@@ -46,7 +46,7 @@ class Calculator
      * @return float
      * @throws WrongArgumentsException
      */
-    public function mul(mixed $num1, mixed $num2): float
+    public function mul($num1, $num2): float
     {
         $this->checkNumbers($num1, $num2);
 
@@ -61,7 +61,7 @@ class Calculator
      * @return float
      * @throws WrongArgumentsException
      */
-    public function div(mixed $num1, mixed $num2): float
+    public function div($num1, $num2): float
     {
         $this->checkNumbers($num1, $num2);
 
@@ -76,7 +76,7 @@ class Calculator
      * @return void
      * @throws WrongArgumentsException
      */
-    protected function checkNumbers(mixed $num1, mixed $num2): void
+    protected function checkNumbers($num1, $num2)
     {
         if (!is_numeric($num1) || !is_numeric($num2)) {
             throw new WrongArgumentsException();
